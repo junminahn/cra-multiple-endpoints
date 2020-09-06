@@ -1,0 +1,9 @@
+# see https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
+[build]
+  base = "/"
+  publish = "build/"
+  command = "yarn build:all"
+
+[context.production.environment]
+  NODE_VERSION = "12.18.3"
+  YARN_VERSION = "1.22.4"
