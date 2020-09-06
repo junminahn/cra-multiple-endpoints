@@ -22,7 +22,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "start:coreui": "REACT_APP_ENDPOINT=coreui react-scripts start",
-    "build:coreui": "REACT_APP_ENDPOINT=coreui react-scripts build",
     "build:all": "./bin/build-all.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
