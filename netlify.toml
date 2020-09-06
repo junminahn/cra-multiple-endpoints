@@ -2,7 +2,7 @@
 [build]
   base = "/"
   publish = "build/"
-  command = "yarn build:all"
+  command = "chmod +x bin/build-all.sh && yarn build:all"
 
 [context.production.environment]
   NODE_VERSION = "12.18.3"
